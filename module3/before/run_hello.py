@@ -6,7 +6,7 @@ ws = Workspace.from_config()
 
 ### START IMPORTANT NOTE###
 ### THIS CODE IS TO CREATE A CLUSTER FROM THE SDK, IT IS NOT KEY TO THE VIDEO###
-cpu_cluster_name = "cpu-cluster"
+cpu_cluster_name = "cluster-1"
 
 try:
     cpu_cluster = ComputeTarget(workspace=ws, name=cpu_cluster_name)
